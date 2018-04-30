@@ -45,7 +45,12 @@
 	
 	<test name="enableAndDisableTest"> 
 		<classes>
-			<class name="com.test.learntestng.EnableAndDisableTest"></class>
+			<class name="com.test.learntestng.EnableAndDisableTest">
+				<methods>
+					<include name="test3"></include>
+					<exclude name="test4"></exclude>
+				</methods>
+			</class>
 		</classes>
 	</test>
 	
