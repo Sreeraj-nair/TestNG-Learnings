@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="basicAnnotations"> 
+	<test name="basicAnnotations"> 
+		<classes>
+			<class name="com.test.learntestng.Annotations"></class>
+		</classes>
+	</test>
+	
+	<test name="groupsTest"> 
+	<groups>
+		<run>
+			<include name="noGrp">
+			</include>
+		</run>
+	</groups>
+		<classes>
+			<class name="com.test.learntestng.GroupTest"></class>
+		</classes>
+	</test>
+	
+	<test name="dependsOnTest"> 
+		<classes>
+			<class name="com.test.learntestng.DependsOnTest"></class>
+		</classes>
+	</test>
+	
+	<parameter name="username" value="testuser@test.com">
+	</parameter>
+	
+	<parameter name="password" value="password@test.com">
+	</parameter>
+	
+	<test name="parametersInTestNG"> 
+		<classes>
+			<class name="com.test.learntestng.ParametersInTestNG"></class>
+		</classes>
+	</test>
+	
+		<test name="dataProviderTest"> 
+		<classes>
+			<class name="com.test.learntestng.DataProviderTest"></class>
+		</classes>
+	</test>
+	
+	<test name="enableAndDisableTest"> 
+		<classes>
+			<class name="com.test.learntestng.EnableAndDisableTest"></class>
+		</classes>
+	</test>
+	
+</suite>

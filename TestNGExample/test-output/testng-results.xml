@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="16" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="basicAnnotations" duration-ms="182" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+    <groups>
+      <group name="noGrp">
+        <method signature="GroupTest.test5()[pri:0, instance:com.test.learntestng.GroupTest@61832929]" name="test5" class="com.test.learntestng.GroupTest"/>
+      </group> <!-- noGrp -->
+    </groups>
+    <test name="basicAnnotations" duration-ms="34" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+      <class name="com.test.learntestng.Annotations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="test1" duration-ms="6" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="test2" duration-ms="2" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.learntestng.Annotations -->
+    </test> <!-- basicAnnotations -->
+    <test name="groupsTest" duration-ms="6" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+      <class name="com.test.learntestng.GroupTest">
+        <test-method status="PASS" signature="test5()[pri:0, instance:com.test.learntestng.GroupTest@61832929]" name="test5" duration-ms="1" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- com.test.learntestng.GroupTest -->
+    </test> <!-- groupsTest -->
+    <test name="dependsOnTest" duration-ms="16" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+      <class name="com.test.learntestng.DependsOnTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.learntestng.DependsOnTest@27efef64]" name="login" duration-ms="4" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.learntestng.DependsOnTest@27efef64]" name="logout" duration-ms="2" started-at="2018-04-30T03:47:28Z" depends-on-methods="com.test.learntestng.DependsOnTest.login" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learntestng.DependsOnTest@27efef64]" name="test1" duration-ms="1" started-at="2018-04-30T03:47:28Z" depends-on-methods="com.test.learntestng.DependsOnTest.login" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.test.learntestng.DependsOnTest -->
+    </test> <!-- dependsOnTest -->
+    <test name="parametersInTestNG" duration-ms="15" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+      <class name="com.test.learntestng.ParametersInTestNG">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.test.learntestng.ParametersInTestNG@604ed9f0]" name="testLogin" duration-ms="1" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.test.learntestng.ParametersInTestNG -->
+    </test> <!-- parametersInTestNG -->
+    <test name="dataProviderTest" duration-ms="13" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+      <class name="com.test.learntestng.DataProviderTest">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.test.learntestng.DataProviderTest@39c0f4a]" name="test" duration-ms="2" started-at="2018-04-30T03:47:28Z" data-provider="data" finished-at="2018-04-30T03:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.test.learntestng.DataProviderTest@39c0f4a]" name="test" duration-ms="1" started-at="2018-04-30T03:47:28Z" data-provider="data" finished-at="2018-04-30T03:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.test.learntestng.DataProviderTest@39c0f4a]" name="test" duration-ms="1" started-at="2018-04-30T03:47:28Z" data-provider="data" finished-at="2018-04-30T03:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.test.learntestng.DataProviderTest -->
+    </test> <!-- dataProviderTest -->
+    <test name="enableAndDisableTest" duration-ms="4" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+      <class name="com.test.learntestng.EnableAndDisableTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learntestng.EnableAndDisableTest@1a968a59]" name="test1" duration-ms="2" started-at="2018-04-30T03:47:28Z" description="I am positive test" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.test.learntestng.EnableAndDisableTest -->
+      <class name="com.test.learntestng.Annotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.learntestng.Annotations@548a9f61]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-04-30T03:47:28Z" finished-at="2018-04-30T03:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.learntestng.Annotations -->
+    </test> <!-- enableAndDisableTest -->
+  </suite> <!-- basicAnnotations -->
+</testng-results>
